@@ -1,0 +1,29 @@
+""" Map leader to space ---------------------
+let mapleader=" "
+
+""" Common settings -------------------------
+set showmode
+set so=8
+set incsearch
+set ignorecase
+set smartcase
+
+set nu
+set relativenumber
+set hlsearch
+set smartindent
+
+set updatetime = 50
+set expandtab
+set shiftwidth = 4
+set softtabstop = 4
+set tabstop = 4
+
+""" Idea specific settings ------------------
+set ideajoin
+set ideastatusicon=gray
+set idearefactormode=keep
+
+""" Mappings --------------------------------
+map <leader>cl <Action>(CommentByLineComment)
+map <leader>cb <Action>(CommentByBlockComment)
